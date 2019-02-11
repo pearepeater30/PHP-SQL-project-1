@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Cashier</title>
+</head>
+<body>
+  <h1>Add a Cashier</h1>
+  <form action="addCashier.php" method="POST">
+    Worker ID:<br>
+    <input type="number" name="workerID" required><br>
+    First name:<br>
+    <input type = "text" name = "firstname" required><br>
+    Last name:<br>
+    <input type ="text" name = "lastname" required><br>
+    Salary:<br>
+    <input type = "number" name= "salary" required><br>
+    Date Of Birth:<br>
+    <input type = "date" name = "dateofbirth" required><br>
+    Position:<br>
+    <input type = "text" name = "position" required><br>
+    Telephone:<br>
+    <input type = "number" name = "telephone" required><br>
+    CashierID:<br>
+    <input type="number" name="cashierID" required><br>
+    CashierPoint:<br>
+    <input type = "number" name = "cashierpoint" min="0" max="3"> <br>
+    <input type="submit" value="Submit">
+  </form>

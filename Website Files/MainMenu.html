@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taimoor's Takeout Menu</title>
+
+</head>
+  <body>
+    <h1>Taimoor's Takeout</h1>
+    <p align="left">Indian Menu</p>
+    <form name = "Menu" action="SubmitOrder.php" method="post">
+      <div align="left">
+          Customer ID:<br>
+          <input type="number" name="customerID"><br>
+          Indian Menu:<br>
+          <input type = "checkbox" name = Indian[] value="1001">Our Famous Shrimp Biryani <br>
+          <input type = "checkbox" name = Indian[] value="1002">Classic Masala Dosa <br>
+          <input type = "checkbox" name = Indian[] value="1003">Kofta Kebab <br>
+          <input type = "checkbox" name = Indian[] value="1004">Chicken Tikka Masala <br>
+          <input type = "checkbox" name = Indian[] value="1005"> Butter Chicken <br>
+          Western Menu:<br>
+          <input type = "checkbox" name = Western[] value="2001">The Original Burger <br>
+          <input type = "checkbox" name = Western[] value="2002">CheeseBurger <br>
+          <input type = "checkbox" name = Western[] value="2003">Spaghetti Bolognese <br>
+          <input type = "checkbox" name = Western[] value="2004">Garlic Bread <br>
+          <input type = "checkbox" name = Western[] value="2005">Meatball Sub  <br>
+          Chinese Menu:<br>
+          <input type = "checkbox" name = Chinese[] value="3001">Stir-Fried Noodles<br>
+          <input type = "checkbox" name = Chinese[] value="3002">Chicken Dumplings <br>
+          <input type = "checkbox" name = Chinese[] value="3003">Orange Chicken <br>
+          <input type = "checkbox" name = Chinese[] value="3004">Beef n Broccoli <br>
+          <input type = "checkbox" name = Chinese[] value="3005">Fried Rice  <br>
+          <input type="submit" value="submit">
+     </div>
+
+     <input type="button" onclick="location.href='DisplayIndianMenu.php';" value = "Indian Menu" />
+     <input type="button" onclick="location.href='DisplayWesternMenu.php';" value = "Western Menu" />
+     <input type="button" onclick="location.href='DisplayChineseMenu.php';" value = "Chinese Menu" />
+     <input type="button" onclick="location.href='FindOrderOrderID.html';" value = "Find Orders via Order ID" />
+     <input type="button" onclick="location.href='FindOrderCustomerID.html';" value = "Find Orders via Customer ID" />
+     <input type="button" onclick="location.href='AddCustomer.html';" value = "Sign up as new customer" />
+     <input type="button" onclick="location.href='DisplayAllCustomersOrder.html';" value = "Find Your Order" />
+
+    <form>
+  </body>
+</html>
